@@ -9,3 +9,5 @@ Ferramentas
 Funcionalidades
 - Cadastrar contato com nome e número
 - Visualizar contato cadastrado
+
+Atualizações do projeto ocorrerão conforme o meu aprendizado sobre Java
