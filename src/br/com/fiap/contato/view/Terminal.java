@@ -1,4 +1,6 @@
 package br.com.fiap.contato.view;
+import br.com.fiap.contato.model.Contato;
+
 import javax.swing.*;
 
 public class Terminal {
@@ -8,5 +10,8 @@ public class Terminal {
 
         String numero = JOptionPane.showInputDialog("Digite o número do contato: ");
         JOptionPane.showMessageDialog(null, "Número confirmado!");
+
+        Contato contato = new Contato(nome, numero);
+
     }
 }
