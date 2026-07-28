@@ -8,10 +8,11 @@ public class Terminal {
         String nome = JOptionPane.showInputDialog("Digite seu nome: ");
         JOptionPane.showMessageDialog(null, "Olá, " + nome + "!");
 
-        String numero = JOptionPane.showInputDialog("Digite o número do contato: ");
+        String numero = JOptionPane.showInputDialog("Digite o número do contato: \n(Exemplo: +55 11 91150-6123)");
         JOptionPane.showMessageDialog(null, "Número confirmado!");
 
         Contato contato = new Contato(nome, numero);
 
+        JOptionPane.showMessageDialog(null, "Nome: " + contato.getNome() + "\nNúmero: " + contato.getNumero());
     }
 }
